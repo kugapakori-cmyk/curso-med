@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Curso de Actualización en Medicina Interna 2026 | Pucallpa</title>
+<meta name="description" content="Curso de Actualización en Medicina Interna organizado por el Departamento de Medicina del Hospital Regional de Pucallpa. 24, 25 y 26 de setiembre del 2026 — Colegio Médico del Perú, CRXIII Ucayali." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🩺</text></svg>" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/oswald@latest/latin-500.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/oswald@latest/latin-600.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/oswald@latest/latin-700.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/manrope@latest/latin-400.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/manrope@latest/latin-500.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/manrope@latest/latin-600.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/manrope@latest/latin-700.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/manrope@latest/latin-800.css" />
+<style>
+  :root{
+    --navy:#0d2547;
+    --navy-2:#123560;
+    --teal:#1779a3;
+    --cyan:#2fb1d8;
+    --sky:#eef6fb;
+    --gold:#e8a33d;
+    --ink:#1d2b3a;
+    --muted:#54687c;
+    --line:#dbe9f3;
+    --white:#ffffff;
+    --shadow:0 16px 40px rgba(13,37,71,.14);
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;scroll-padding-top:96px}
+  body{font-family:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;color:var(--ink);background:var(--white);line-height:1.65;overflow-x:hidden}
+  img{max-width:100%;display:block}
+  a{text-decoration:none;color:inherit}
+  ul{list-style:none}
+  .container{width:min(1180px,92%);margin-inline:auto}
+  h1,h2,h3,.oswald{font-family:'Oswald','Arial Narrow',sans-serif;text-transform:uppercase;line-height:1.15;letter-spacing:.01em}
+  .icon{width:1em;height:1em;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+
+  /* ============ TOPBAR ============ */
+  .topbar{background:var(--navy);color:#cfe3f2;font-size:.82rem;font-weight:600}
+  .topbar-inner{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:.45rem 0}
+  .topbar span{display:inline-flex;align-items:center;gap:.45rem}
+  .topbar .icon{width:14px;height:14px;color:var(--cyan)}
+  @media(max-width:640px){.topbar-inner{justify-content:center}.topbar .tb-loc{display:none}}
+
+  /* ============ NAVBAR ============ */
+  .navbar{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);transition:box-shadow .3s}
+  .navbar.scrolled{box-shadow:0 8px 24px rgba(13,37,71,.12)}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.65rem 0}
+  .brand{display:flex;align-items:center;gap:.75rem}
+  .brand img{width:54px;height:54px;border-radius:50%;object-fit:cover;box-shadow:0 4px 12px rgba(13,37,71,.18)}
+  .brand-text small{display:block;font-size:.66rem;font-weight:800;letter-spacing:.18em;color:var(--teal);text-transform:uppercase}
+  .brand-text strong{font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:1.06rem;color:var(--navy);letter-spacing:.03em;display:block;line-height:1.2}
+  .nav-links{display:flex;align-items:center;gap:1.7rem}
+  .nav-links a{font-weight:700;font-size:.9rem;color:var(--navy);position:relative;padding:.35rem 0}
+  .nav-links a::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:2.5px;background:var(--cyan);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+  .nav-links a:hover::after{transform:scaleX(1)}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.09em;font-weight:600;font-size:.95rem;padding:.8rem 1.7rem;border-radius:999px;border:2px solid transparent;cursor:pointer;transition:transform .25s,box-shadow .25s,background .25s,color .25s}
+  .btn-primary{background:var(--teal);color:#fff;box-shadow:0 10px 24px rgba(23,121,163,.35)}
+  .btn-primary:hover{background:var(--navy);transform:translateY(-2px)}
+  .btn-ghost{border-color:var(--navy);color:var(--navy);background:transparent}
+  .btn-ghost:hover{background:var(--navy);color:#fff;transform:translateY(-2px)}
+  .nav-cta{padding:.6rem 1.35rem;font-size:.85rem}
+  .menu-toggle{display:none;background:none;border:0;cursor:pointer;padding:.4rem}
+  .menu-toggle span{display:block;width:26px;height:3px;background:var(--navy);margin:5px 0;border-radius:3px;transition:.3s}
+  body.nav-open .menu-toggle span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+  body.nav-open .menu-toggle span:nth-child(2){opacity:0}
+  body.nav-open .menu-toggle span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+  @media(max-width:940px){
+    .menu-toggle{display:block}
+    .nav-links{position:fixed;top:70px;left:0;right:0;background:#fff;flex-direction:column;align-items:flex-start;padding:1.4rem 6%;gap:1.1rem;transform:translateY(-130%);transition:transform .4s ease;box-shadow:0 20px 40px rgba(13,37,71,.15);z-index:-1}
+    body.nav-open .nav-links{transform:translateY(0)}
+  }
+
+  /* ============ HERO ============ */
+  .hero{position:relative;background:linear-gradient(180deg,#ffffff 0%,var(--sky) 100%);overflow:hidden}
+  .hero::before{content:"";position:absolute;top:60px;left:-70px;width:240px;height:240px;background-image:radial-gradient(rgba(23,121,163,.28) 2px,transparent 2px);background-size:18px 18px;pointer-events:none}
+  .hero::after{content:"";position:absolute;bottom:90px;right:-40px;width:200px;height:200px;background-image:radial-gradient(rgba(47,177,216,.3) 2px,transparent 2px);background-size:16px 16px;pointer-events:none}
+  .hero-inner{display:grid;grid-template-columns:1.05fr .95fr;gap:3.2rem;align-items:center;padding:4.2rem 0 6.5rem;position:relative;z-index:2}
+  .hero-badge{display:inline-flex;align-items:center;gap:.5rem;background:var(--navy);color:#fff;border-radius:999px;padding:.5rem 1.15rem;font-size:.7rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;box-shadow:0 8px 20px rgba(13,37,71,.28)}
+  .hero-badge .icon{width:14px;height:14px;color:var(--cyan)}
+  .hero h1{font-size:clamp(2.5rem,5.2vw,4.1rem);font-weight:700;color:var(--navy);margin:1.1rem 0 .9rem}
+  .hero h1 .hl{color:var(--teal);position:relative;display:inline-block}
+  .hero h1 .hl::after{content:"";position:absolute;left:0;bottom:6px;width:100%;height:10px;background:rgba(47,177,216,.28);z-index:-1}
+  .hero-sub{color:var(--muted);max-width:56ch;font-size:1.03rem;margin-bottom:1.4rem}
+  .hero-chips{display:flex;flex-wrap:wrap;gap:.6rem;margin-bottom:1.7rem}
+  .chip{display:inline-flex;align-items:center;gap:.5rem;background:#fff;border:1.5px solid var(--line);border-radius:999px;padding:.55rem 1rem;font-weight:800;font-size:.82rem;color:var(--navy);box-shadow:0 4px 12px rgba(13,37,71,.08)}
+  .chip .icon{width:16px;height:16px;color:var(--teal)}
+  .cta-row{display:flex;flex-wrap:wrap;gap:.9rem;margin-bottom:2.2rem}
+  .cd-label{font-size:.72rem;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--teal);margin-bottom:.6rem;display:flex;align-items:center;gap:.5rem}
+  .cd-label::after{content:"";height:2px;width:56px;background:linear-gradient(90deg,var(--cyan),transparent)}
+  .cd-grid{display:flex;gap:.7rem;flex-wrap:wrap}
+  .cd-box{background:var(--navy);color:#fff;border-radius:14px;min-width:78px;padding:.75rem .5rem .6rem;text-align:center;box-shadow:0 12px 26px rgba(13,37,71,.25);position:relative;overflow:hidden}
+  .cd-box::before{content:"";position:absolute;inset:0 0 auto 0;height:3px;background:var(--cyan)}
+  .cd-num{font-family:'Oswald',sans-serif;font-size:2rem;font-weight:600;line-height:1}
+  .cd-lab{font-size:.62rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#9cc4dd;margin-top:.25rem}
+  .cd-live{font-family:'Oswald',sans-serif;font-size:1.4rem;color:var(--teal);text-transform:uppercase}
+  .hero-media{position:relative}
+  .hero-media .frame{border-radius:230px 230px 34px 34px;overflow:hidden;box-shadow:0 34px 70px rgba(13,37,71,.3);border:6px solid #fff;position:relative}
+  .hero-media .frame img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/4.4}
+  .hero-media .ring{position:absolute;width:110px;height:110px;border:14px solid rgba(47,177,216,.4);border-radius:50%;top:-26px;right:-18px;z-index:3}
+  .hero-media .plus-a,.hero-media .plus-b{position:absolute;font-family:'Oswald',sans-serif;color:var(--cyan);font-weight:700;z-index:3}
+  .hero-media .plus-a{font-size:2.2rem;left:-30px;top:34%}
+  .hero-media .plus-b{font-size:1.5rem;right:-34px;bottom:22%}
+  @media(max-width:940px){
+    .hero-inner{grid-template-columns:1fr;padding:3rem 0 6rem;gap:2.6rem}
+    .hero-media{max-width:520px;margin-inline:auto}
+  }
+
+  /* ============ INFO STRIP ============ */
+  .info-strip{position:relative;z-index:6;margin-top:-4.4rem}
+  .info-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+  .info-card{display:flex;gap:1.1rem;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:18px;padding:1.6rem 1.5rem;box-shadow:var(--shadow);transition:transform .3s}
+  .info-card:hover{transform:translateY(-6px)}
+  .info-icon{width:56px;height:56px;border-radius:50%;background:var(--navy);color:#fff;display:grid;place-items:center;flex:none;box-shadow:inset 0 0 0 3px rgba(47,177,216,.5)}
+  .info-icon .icon{width:24px;height:24px}
+  .info-card h3{font-size:1rem;color:var(--teal);letter-spacing:.08em;margin-bottom:.3rem}
+  .info-card p{font-weight:700;color:var(--navy);font-size:.95rem;line-height:1.45}
+  .info-card p small{display:block;font-weight:600;color:var(--muted);margin-top:.2rem}
+  @media(max-width:940px){.info-grid{grid-template-columns:1fr}}
+
+  /* ============ SECTIONS BASE ============ */
+  section{padding:5.5rem 0}
+  .section-head{text-align:center;max-width:760px;margin:0 auto 3.2rem}
+  .eyebrow{color:var(--teal);font-weight:800;letter-spacing:.24em;text-transform:uppercase;font-size:.74rem}
+  .section-head h2{font-size:clamp(1.9rem,3.6vw,2.7rem);font-weight:700;color:var(--navy);margin:.55rem 0 .8rem}
+  .pulse{width:230px;color:var(--cyan);display:block;margin:0 auto}
+
+  /* ============ EL CURSO ============ */
+  .about-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:3.4rem;align-items:center}
+  .about-media{position:relative}
+  .about-media img{border-radius:22px;box-shadow:var(--shadow);position:relative;z-index:2}
+  .about-media::before{content:"";position:absolute;inset:22px -18px -18px 22px;background:var(--gold);border-radius:22px;z-index:1;opacity:.85}
+  .about-media .stamp{position:absolute;z-index:3;top:-24px;left:-20px;background:var(--navy);color:#fff;border-radius:16px;padding:.8rem 1.2rem;box-shadow:0 14px 30px rgba(13,37,71,.3);text-align:center}
+  .about-media .stamp strong{font-family:'Oswald',sans-serif;font-size:1.5rem;color:var(--cyan);display:block;line-height:1}
+  .about-media .stamp span{font-size:.62rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+  .about-copy h2{font-size:clamp(1.8rem,3.2vw,2.5rem);color:var(--navy);margin:.5rem 0 1rem}
+  .about-copy p{color:var(--muted);margin-bottom:1.2rem}
+  .check-list{display:grid;grid-template-columns:1fr 1fr;gap:.7rem 1.4rem;margin:1.4rem 0 1.8rem}
+  .check-list li{display:flex;gap:.6rem;align-items:flex-start;font-weight:700;color:var(--navy);font-size:.92rem}
+  .check-list .icon{width:19px;height:19px;color:var(--teal);margin-top:.15rem}
+  .topics-title{font-size:.95rem;color:var(--teal);letter-spacing:.1em;margin-bottom:.8rem}
+  .topics{display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:.6rem}
+  .topic{background:var(--sky);border:1.5px solid var(--line);color:var(--navy);font-weight:700;padding:.55rem .6rem;border-radius:10px;text-align:center;font-size:.82rem;transition:.25s}
+  .topic:hover{background:var(--navy);color:#fff;border-color:var(--navy);transform:translateY(-3px)}
+  @media(max-width:940px){.about-grid{grid-template-columns:1fr}.about-media{max-width:560px;margin:0 auto 1rem}}
+  @media(max-width:560px){.check-list{grid-template-columns:1fr}}
+
+  /* ============ PROGRAMA ============ */
+  .programa{background:var(--sky);position:relative}
+  .tabs{display:flex;justify-content:center;gap:.8rem;flex-wrap:wrap;margin-bottom:2.4rem}
+  .tab-btn{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.08em;font-weight:600;font-size:.95rem;padding:.7rem 1.6rem;border-radius:999px;border:2px solid var(--navy);color:var(--navy);background:#fff;cursor:pointer;transition:.25s}
+  .tab-btn small{display:block;font-family:'Manrope',sans-serif;font-weight:700;font-size:.66rem;letter-spacing:.12em;color:var(--teal);text-transform:none}
+  .tab-btn:hover{transform:translateY(-2px)}
+  .tab-btn.active{background:var(--navy);color:#fff;box-shadow:0 12px 26px rgba(13,37,71,.28)}
+  .tab-btn.active small{color:var(--cyan)}
+  .day-panel{display:none;max-width:860px;margin:0 auto}
+  .day-panel.active{display:block;animation:fadeUp .5s ease}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+  .schedule{display:flex;flex-direction:column;gap:.8rem}
+  .slot{display:flex;gap:1.3rem;align-items:center;background:#fff;border-radius:14px;padding:1.05rem 1.5rem;border-left:5px solid var(--cyan);box-shadow:0 8px 22px rgba(13,37,71,.08);transition:transform .25s}
+  .slot:hover{transform:translateX(6px)}
+  .slot-time{font-family:'Oswald',sans-serif;font-size:1.05rem;font-weight:600;color:var(--teal);min-width:104px}
+  .slot-body strong{display:block;color:var(--navy);font-size:.98rem}
+  .slot-body em{font-style:normal;color:var(--muted);font-size:.8rem;font-weight:600}
+  .slot-tag{margin-left:auto;background:var(--sky);border:1px solid var(--line);color:var(--teal);font-size:.68rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;border-radius:999px;padding:.3rem .8rem;white-space:nowrap}
+  @media(max-width:640px){.slot{flex-direction:column;align-items:flex-start;gap:.3rem}.slot-tag{margin-left:0}}
+  .program-note{text-align:center;color:var(--muted);font-size:.85rem;margin-top:2rem;font-weight:600}
+
+  /* ============ VALUES ============ */
+  .values{background:var(--navy);position:relative;padding-top:7rem}
+  .wave-top{position:absolute;top:-1px;left:0;width:100%;height:70px;display:block}
+  .values .section-head h2{color:#fff}
+  .values .eyebrow{color:var(--cyan)}
+  .values-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem}
+  .value-card{text-align:center;padding:2rem 1.2rem;border-radius:16px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.05);transition:.3s}
+  .value-card:hover{background:rgba(47,177,216,.12);transform:translateY(-6px);border-color:rgba(47,177,216,.5)}
+  .value-icon{width:66px;height:66px;margin:0 auto 1.1rem;border-radius:50%;border:2px solid var(--cyan);color:var(--cyan);display:grid;place-items:center}
+  .value-icon .icon{width:28px;height:28px}
+  .value-card h3{color:#fff;font-size:1.05rem;letter-spacing:.1em;margin-bottom:.5rem}
+  .value-card p{color:#a9c8dd;font-size:.85rem}
+  .values-phrase{margin-top:3rem;text-align:center;color:#cfe3f2;font-size:1.02rem;max-width:640px;margin-inline:auto}
+  .values-phrase strong{color:var(--cyan)}
+  @media(max-width:940px){.values-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:560px){.values-grid{grid-template-columns:1fr}}
+
+  /* ============ INSCRIPCIÓN ============ */
+  .inscripcion{background:#fff}
+  .insc-grid{display:grid;grid-template-columns:1fr 1fr;gap:3.4rem;align-items:start}
+  .steps{counter-reset:paso;margin:1.6rem 0 2rem;display:flex;flex-direction:column;gap:1rem}
+  .steps li{counter-increment:paso;display:flex;gap:1.1rem;align-items:flex-start;background:var(--sky);border:1.5px solid var(--line);border-radius:14px;padding:1rem 1.2rem}
+  .steps li::before{content:counter(paso);font-family:'Oswald',sans-serif;font-size:1.25rem;font-weight:700;color:#fff;background:var(--teal);width:42px;height:42px;border-radius:50%;display:grid;place-items:center;flex:none}
+  .steps li strong{display:block;color:var(--navy)}
+  .steps li span{color:var(--muted);font-size:.88rem}
+  .benefits{display:flex;flex-direction:column;gap:.6rem;margin-bottom:1.8rem}
+  .benefits li{display:flex;gap:.6rem;align-items:center;font-weight:700;color:var(--navy);font-size:.93rem}
+  .benefits .icon{width:19px;height:19px;color:var(--gold)}
+  .contact-mini{display:flex;flex-direction:column;gap:.6rem;background:var(--navy);border-radius:16px;padding:1.4rem 1.6rem;color:#cfe3f2;font-size:.9rem;box-shadow:var(--shadow)}
+  .contact-mini a{display:flex;align-items:center;gap:.6rem;color:#fff;font-weight:700}
+  .contact-mini .icon{width:17px;height:17px;color:var(--cyan)}
+  .contact-mini a:hover{color:var(--cyan)}
+  .form-card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:2.3rem;box-shadow:var(--shadow);position:relative;overflow:hidden}
+  .form-card::before{content:"";position:absolute;inset:0 0 auto 0;height:6px;background:linear-gradient(90deg,var(--teal),var(--cyan))}
+  .form-card h3{color:var(--navy);font-size:1.35rem;margin-bottom:.4rem}
+  .form-card>p{color:var(--muted);font-size:.88rem;margin-bottom:1.5rem}
+  .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+  .form-grid .full{grid-column:1/-1}
+  .field label{display:block;font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--teal);margin-bottom:.35rem}
+  .field input,.field select{width:100%;padding:.8rem 1rem;border:1.5px solid var(--line);border-radius:10px;font-family:inherit;font-size:.92rem;color:var(--ink);background:#fbfdff;transition:.25s;outline:none}
+  .field input:focus,.field select:focus{border-color:var(--cyan);box-shadow:0 0 0 4px rgba(47,177,216,.18)}
+  .form-card .btn{width:100%;margin-top:1.2rem}
+  .form-success{display:none;margin-top:1.1rem;background:#e9f9f0;border:1.5px solid #9adfb8;color:#176b45;border-radius:12px;padding:.9rem 1.1rem;font-weight:700;font-size:.9rem;align-items:center;gap:.6rem}
+  .form-success.show{display:flex;animation:fadeUp .4s ease}
+  .form-success .icon{width:20px;height:20px}
+  @media(max-width:940px){.insc-grid{grid-template-columns:1fr}}
+  @media(max-width:560px){.form-grid{grid-template-columns:1fr}.form-card{padding:1.7rem}}
+
+  /* ============ FOOTER ============ */
+  footer{background:var(--navy);color:#b9d2e4;position:relative}
+  .footer-wave{display:block;width:100%;height:64px;margin-bottom:-1px}
+  .footer-grid{display:grid;grid-template-columns:1.3fr 1fr 1.1fr;gap:2.6rem;padding:3.6rem 0 2.6rem}
+  .footer-brand{display:flex;gap:1rem;align-items:center;margin-bottom:1.1rem}
+  .footer-brand img{width:60px;height:60px;border-radius:50%;background:#fff;padding:3px;object-fit:cover}
+  .footer-brand img.cmp{width:52px;height:52px}
+  .footer-grid h4{font-family:'Oswald',sans-serif;text-transform:uppercase;color:#fff;letter-spacing:.12em;font-size:1rem;margin-bottom:1rem}
+  .footer-grid p{font-size:.88rem}
+  .footer-links{display:flex;flex-direction:column;gap:.55rem}
+  .footer-links a{font-size:.9rem;font-weight:600;transition:.2s}
+  .footer-links a:hover{color:var(--cyan);padding-left:6px}
+  .footer-contact li{display:flex;gap:.6rem;align-items:flex-start;margin-bottom:.7rem;font-size:.88rem}
+  .footer-contact .icon{width:17px;height:17px;color:var(--cyan);margin-top:.2rem}
+  .footer-bottom{border-top:1px solid rgba(255,255,255,.12);padding:1.1rem 0;font-size:.8rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+  .footer-bottom strong{color:var(--cyan)}
+  @media(max-width:940px){.footer-grid{grid-template-columns:1fr;gap:2rem}}
+
+  /* ============ REVEAL ============ */
+  .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
+  .reveal.visible{opacity:1;transform:none}
+  .d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}
+</style>
+</head>
+<body>
+
+<!-- ======= TOPBAR ======= -->
+<div class="topbar">
+  <div class="container topbar-inner">
+    <span><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 9h18M8 3v4M16 3v4"/></svg> 24, 25 y 26 de setiembre del 2026</span>
+    <span class="tb-loc"><svg class="icon" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Pucallpa – Ucayali, Perú</span>
+  </div>
+</div>
+
+<!-- ======= NAVBAR ======= -->
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a class="brand" href="#inicio">
+      <img src="https://image.qwenlm.ai/public_source/086e1bd0-6642-4334-bc01-9d0186b9ab82/1103f1d6a-f228-464f-94c9-ce5adfd87300.png" alt="Logo Hospital Regional de Pucallpa" />
+      <span class="brand-text">
+        <small>Hospital Regional de Pucallpa</small>
+        <strong>Medicina Interna · Curso 2026</strong>
+      </span>
+    </a>
+    <nav class="nav-links" id="nav-links">
+      <a href="#inicio">Inicio</a>
+      <a href="#curso">El Curso</a>
+      <a href="#programa">Programa</a>
+      <a href="#inscripcion">Inscripción</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:.8rem">
+      <a href="#inscripcion" class="btn btn-primary nav-cta">Inscríbete</a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+<!-- ======= HERO ======= -->
+<section class="hero" id="inicio" style="padding:0">
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <span class="hero-badge"><svg class="icon" viewBox="0 0 24 24"><path d="M12 21s-8-5.3-8-11a4.6 4.6 0 0 1 8-3.1A4.6 4.6 0 0 1 20 10c0 5.7-8 11-8 11z"/></svg> Departamento de Medicina HRP</span>
+      <h1>Curso de Actualización en <span class="hl">Medicina Interna</span></h1>
+      <p class="hero-sub">Fortalece tu práctica clínica con la evidencia científica más reciente. Tres días de sesiones magistrales, talleres prácticos y discusión de casos clínicos en la ciudad de Pucallpa.</p>
+      <div class="hero-chips">
+        <span class="chip"><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 9h18M8 3v4M16 3v4"/></svg> 24, 25 y 26 SET 2026</span>
+        <span class="chip"><svg class="icon" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Colegio Médico del Perú · CRXIII Ucayali</span>
+      </div>
+      <div class="cta-row">
+        <a href="#inscripcion" class="btn btn-primary">Inscríbete ahora</a>
+        <a href="#programa" class="btn btn-ghost">Ver programa</a>
+      </div>
+      <div id="countdown-wrap">
+        <p class="cd-label">Faltan para el inicio</p>
+        <div class="cd-grid">
+          <div class="cd-box"><div class="cd-num" id="cd-days">00</div><div class="cd-lab">Días</div></div>
+          <div class="cd-box"><div class="cd-num" id="cd-hours">00</div><div class="cd-lab">Horas</div></div>
+          <div class="cd-box"><div class="cd-num" id="cd-mins">00</div><div class="cd-lab">Min</div></div>
+          <div class="cd-box"><div class="cd-num" id="cd-secs">00</div><div class="cd-lab">Seg</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-media reveal visible">
+      <div class="ring"></div>
+      <span class="plus-a">+</span>
+      <span class="plus-b">+</span>
+      <div class="frame">
+        <img src="https://image.qwenlm.ai/public_source/086e1bd0-6642-4334-bc01-9d0186b9ab82/117ac010c-fac4-444f-b3a3-f02d61c7dd97.png" alt="Médico sosteniendo holograma de órganos humanos" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= INFO STRIP ======= -->
+<div class="info-strip">
+  <div class="container info-grid">
+    <article class="info-card reveal">
+      <div class="info-icon"><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 9h18M8 3v4M16 3v4"/></svg></div>
+      <div>
+        <h3 class="oswald">Fecha</h3>
+        <p>24, 25 y 26 de setiembre del 2026 <small>De 8:00 a. m. a 6:00 p. m.</small></p>
+      </div>
+    </article>
+    <article class="info-card reveal d1">
+      <div class="info-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+      <div>
+        <h3 class="oswald">Organiza</h3>
+        <p>Departamento de Medicina del Hospital Regional de Pucallpa</p>
+      </div>
+    </article>
+    <article class="info-card reveal d2">
+      <div class="info-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+      <div>
+        <h3 class="oswald">Lugar</h3>
+        <p>CRXIII – Ucayali, Colegio Médico del Perú <small>Pucallpa, Ucayali</small></p>
+      </div>
+    </article>
+  </div>
+</div>
+
+<!-- ======= EL CURSO ======= -->
+<section id="curso">
+  <div class="container about-grid">
+    <div class="about-media reveal">
+      <div class="stamp"><strong>3</strong><span>días de<br/>intensificación</span></div>
+      <img src="https://image.qwenlm.ai/public_source/086e1bd0-6642-4334-bc01-9d0186b9ab82/163a9246e-ecff-41f9-96b3-5b858006d849.png" alt="Auditorio médico durante una conferencia de medicina interna" />
+    </div>
+    <div class="about-copy reveal d1">
+      <p class="eyebrow">Nuestro compromiso</p>
+      <h2>Excelencia médica y actualización constante</h2>
+      <p>El Departamento de Medicina del Hospital Regional de Pucallpa presenta este curso presencial dirigido a médicos especialistas, residentes y estudiantes de los últimos ciclos que buscan ponerse al día con las guías, consensos y avances más recientes de la medicina interna.</p>
+      <p>Un espacio académico de primer nivel en la región Ucayali para integrar evidencia, experiencia clínica y trabajo interinstitucional.</p>
+      <ul class="check-list">
+        <li><svg class="icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Sesiones basadas en evidencia</li>
+        <li><svg class="icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Casos clínicos interactivos</li>
+        <li><svg class="icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Talleres prácticos guiados</li>
+        <li><svg class="icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Certificado de 40 h académicas</li>
+        <li><svg class="icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Docentes de nivel nacional</li>
+        <li><svg class="icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Networking interinstitucional</li>
+      </ul>
+      <h3 class="topics-title oswald">Ejes temáticos</h3>
+      <div class="topics">
+        <span class="topic">Cardiología</span>
+        <span class="topic">Neumología</span>
+        <span class="topic">Gastroenterología</span>
+        <span class="topic">Endocrinología</span>
+        <span class="topic">Nefrología</span>
+        <span class="topic">Infectiología</span>
+        <span class="topic">Hematología</span>
+        <span class="topic">Reumatología</span>
+        <span class="topic">Geriatría</span>
+        <span class="topic">Medicina Crítica</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= PROGRAMA ======= -->
+<section class="programa" id="programa">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Agenda académica</p>
+      <h2>Programa Científico</h2>
+      <svg class="pulse" viewBox="0 0 260 30"><path d="M0 15h96l10-10 12 20 10-10h132" fill="none" stroke="currentColor" stroke-width="2.5"/></svg>
+    </div>
+
+    <div class="tabs reveal">
+      <button class="tab-btn active" data-target="panel-dia1">Día 1 <small>Jue 24 SET</small></button>
+      <button class="tab-btn" data-target="panel-dia2">Día 2 <small>Vie 25 SET</small></button>
+      <button class="tab-btn" data-target="panel-dia3">Día 3 <small>Sáb 26 SET</small></button>
+    </div>
+
+    <div class="day-panel active" id="panel-dia1">
+      <div class="schedule">
+        <div class="slot"><span class="slot-time">08:00</span><div class="slot-body"><strong>Inscripción y ceremonia de inauguración</strong><em>Autoridades del HRP y Colegio Médico</em></div><span class="slot-tag">Apertura</span></div>
+        <div class="slot"><span class="slot-time">09:00</span><div class="slot-body"><strong>Insuficiencia cardiaca: actualización terapéutica</strong><em>Ponente nacional por confirmar</em></div><span class="slot-tag">Cardiología</span></div>
+        <div class="slot"><span class="slot-time">11:00</span><div class="slot-body"><strong>EPOC y asma: guías GOLD / GINA vigentes</strong><em>Ponente por confirmar</em></div><span class="slot-tag">Neumología</span></div>
+        <div class="slot"><span class="slot-time">13:00</span><div class="slot-body"><strong>Almuerzo de confraternidad</strong><em>Refrigerio incluido</em></div><span class="slot-tag">Networking</span></div>
+        <div class="slot"><span class="slot-time">15:00</span><div class="slot-body"><strong>Neumonía adquirida en comunidad: enfoque práctico</strong><em>Ponente por confirmar</em></div><span class="slot-tag">Neumología</span></div>
+        <div class="slot"><span class="slot-time">17:00</span><div class="slot-body"><strong>Taller: interpretación de ECG en consultorio</strong><em>Docentes del Departamento de Medicina</em></div><span class="slot-tag">Taller</span></div>
+      </div>
+    </div>
+
+    <div class="day-panel" id="panel-dia2">
+      <div class="schedule">
+        <div class="slot"><span class="slot-time">08:00</span><div class="slot-body"><strong>Diabetes mellitus: nuevas terapias hipoglucemiantes</strong><em>Ponente nacional por confirmar</em></div><span class="slot-tag">Endocrinología</span></div>
+        <div class="slot"><span class="slot-time">10:00</span><div class="slot-body"><strong>Enfermedad hepática metabólica (MAFLD)</strong><em>Ponente por confirmar</em></div><span class="slot-tag">Gastroenterología</span></div>
+        <div class="slot"><span class="slot-time">12:00</span><div class="slot-body"><strong>Enfermedad renal crónica y síndrome cardiorrenal</strong><em>Ponente por confirmar</em></div><span class="slot-tag">Nefrología</span></div>
+        <div class="slot"><span class="slot-time">13:00</span><div class="slot-body"><strong>Almuerzo</strong><em>Refrigerio incluido</em></div><span class="slot-tag">Networking</span></div>
+        <div class="slot"><span class="slot-time">15:00</span><div class="slot-body"><strong>Hemorragia digestiva alta: conducta actualizada</strong><em>Ponente por confirmar</em></div><span class="slot-tag">Gastroenterología</span></div>
+        <div class="slot"><span class="slot-time">17:00</span><div class="slot-body"><strong>Taller: equilibrio acidobásico y electrolitos</strong><em>Docentes del Departamento de Medicina</em></div><span class="slot-tag">Taller</span></div>
+      </div>
+    </div>
+
+    <div class="day-panel" id="panel-dia3">
+      <div class="schedule">
+        <div class="slot"><span class="slot-time">08:00</span><div class="slot-body"><strong>Sepsis: últimas recomendaciones Surviving Sepsis</strong><em>Ponente nacional por confirmar</em></div><span class="slot-tag">Infectiología</span></div>
+        <div class="slot"><span class="slot-time">10:00</span><div class="slot-body"><strong>Antibioticoterapia racional en hospitalización</strong><em>Ponente por confirmar</em></div><span class="slot-tag">Infectiología</span></div>
+        <div class="slot"><span class="slot-time">12:00</span><div class="slot-body"><strong>Manejo del paciente crítico en UCI</strong><em>Ponente por confirmar</em></div><span class="slot-tag">Medicina Crítica</span></div>
+        <div class="slot"><span class="slot-time">13:00</span><div class="slot-body"><strong>Almuerzo</strong><em>Refrigerio incluido</em></div><span class="slot-tag">Networking</span></div>
+        <div class="slot"><span class="slot-time">15:00</span><div class="slot-body"><strong>Panel de casos clínicos y discusión interactiva</strong><em>Todos los docentes</em></div><span class="slot-tag">Casos clínicos</span></div>
+        <div class="slot"><span class="slot-time">18:00</span><div class="slot-body"><strong>Ceremonia de clausura y entrega de certificados</strong><em>Comité organizador</em></div><span class="slot-tag">Clausura</span></div>
+      </div>
+    </div>
+
+    <p class="program-note">* El programa y los ponentes finales serán publicados próximamente por el comité organizador.</p>
+  </div>
+</section>
+
+<!-- ======= VALORES ======= -->
+<section class="values">
+  <svg class="wave-top" viewBox="0 0 1440 70" preserveAspectRatio="none"><path fill="#eef6fb" d="M0 0h1440v16c-180 34-380 46-560 34S520 8 340 18 120 44 0 30z"/></svg>
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Lo que nos distingue</p>
+      <h2>Nuestros Pilares</h2>
+      <svg class="pulse" viewBox="0 0 260 30"><path d="M0 15h96l10-10 12 20 10-10h132" fill="none" stroke="currentColor" stroke-width="2.5"/></svg>
+    </div>
+    <div class="values-grid">
+      <article class="value-card reveal">
+        <div class="value-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 1 4 12.7c-.6.5-1 1.4-1 2.3h-6c0-.9-.4-1.8-1-2.3A7 7 0 0 1 12 2z"/></svg></div>
+        <h3 class="oswald">Actualización</h3>
+        <p>Guías y consensos vigentes traducidos a la práctica clínica diaria.</p>
+      </article>
+      <article class="value-card reveal d1">
+        <div class="value-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M10 2v6L4.5 18a3 3 0 0 0 2.7 4.4h9.6a3 3 0 0 0 2.7-4.4L14 8V2"/><path d="M8.5 2h7M7 15h10"/></svg></div>
+        <h3 class="oswald">Ciencia</h3>
+        <p>Contenido riguroso, crítico y basado en evidencia científica.</p>
+      </article>
+      <article class="value-card reveal d2">
+        <div class="value-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M12 21s-8-5.3-8-11a4.6 4.6 0 0 1 8-3.1A4.6 4.6 0 0 1 20 10c0 5.7-8 11-8 11z"/><polyline points="7.5 11 10 11 11.2 9 12.8 13 14 11 16.5 11"/></svg></div>
+        <h3 class="oswald">Calidad</h3>
+        <p>Docentes y organización con estándar hospitalario de excelencia.</p>
+      </article>
+      <article class="value-card reveal d3">
+        <div class="value-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M12 2l8 4v6c0 5.2-3.4 8.6-8 10-4.6-1.4-8-4.8-8-10V6z"/><path d="M12 8v6M9 11h6"/></svg></div>
+        <h3 class="oswald">Compromiso</h3>
+        <p>Vocación de servicio con la salud de la región Ucayali y del país.</p>
+      </article>
+    </div>
+    <p class="values-phrase reveal">Comprometidos con la <strong>excelencia médica</strong> y la <strong>actualización constante</strong> de los profesionales de salud.</p>
+  </div>
+</section>
+
+<!-- ======= INSCRIPCIÓN ======= -->
+<section class="inscripcion" id="inscripcion">
+  <div class="container insc-grid">
+    <div class="reveal">
+      <p class="eyebrow">Vacantes limitadas</p>
+      <h2 class="oswald" style="font-size:clamp(1.9rem,3.4vw,2.6rem);color:var(--navy);margin:.55rem 0 .6rem">Asegura tu participación</h2>
+      <p style="color:var(--muted)">Completa tus datos y el comité organizador se pondrá en contacto contigo para confirmar tu inscripción al curso.</p>
+      <ol class="steps">
+        <li><div><strong>Completa el formulario</strong><span>Registra tus datos profesionales en línea.</span></div></li>
+        <li><div><strong>Recibe la confirmación</strong><span>Te enviaremos las opciones de pago por correo.</span></div></li>
+        <li><div><strong>Asegura tu vacante</strong><span>Obtén tu constancia digital y material del curso.</span></div></li>
+      </ol>
+      <ul class="benefits">
+        <li><svg class="icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Certificado digital con 40 horas académicas</li>
+        <li><svg class="icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Material académico digital de cada sesión</li>
+        <li><svg class="icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Coffee break durante los 3 días del evento</li>
+        <li><svg class="icon" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Acceso a talleres prácticos con cupo limitado</li>
+      </ul>
+      <div class="contact-mini">
+        <a href="mailto:departamento.medicina@hrp.gob.pe"><svg class="icon" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg> departamento.medicina@hrp.gob.pe</a>
+        <a href="tel:+51961000000"><svg class="icon" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.27a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7a2 2 0 0 1 1.7 2.03z"/></svg> +51 961 000 000</a>
+      </div>
+    </div>
+
+    <form class="form-card reveal d1" id="reg-form" novalidate>
+      <h3 class="oswald">Ficha de pre-inscripción</h3>
+      <p>Los campos marcados con * son obligatorios.</p>
+      <div class="form-grid">
+        <div class="field full">
+          <label for="f-nombre">Nombres y apellidos *</label>
+          <input id="f-nombre" name="nombre" type="text" placeholder="Ej. Dra. María Pérez Torres" required />
+        </div>
+        <div class="field">
+          <label for="f-email">Correo electrónico *</label>
+          <input id="f-email" name="email" type="email" placeholder="tucorreo@ejemplo.com" required />
+        </div>
+        <div class="field">
+          <label for="f-celular">Celular / WhatsApp</label>
+          <input id="f-celular" name="celular" type="tel" placeholder="+51 ..." />
+        </div>
+        <div class="field">
+          <label for="f-profesion">Profesión *</label>
+          <select id="f-profesion" name="profesion" required>
+            <option value="" selected disabled>Selecciona una opción</option>
+            <option>Médico especialista</option>
+            <option>Médico residente</option>
+            <option>Estudiante de medicina</option>
+            <option>Enfermería / Otra profesión</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="f-institucion">Institución</label>
+          <input id="f-institucion" name="institucion" type="text" placeholder="Hospital / universidad" />
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar pre-inscripción</button>
+      <div class="form-success" id="form-success">
+        <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="8 12.5 11 15.5 16 9.5"/></svg>
+        ¡Registro recibido! Te contactaremos muy pronto con los detalles de pago.
+      </div>
+    </form>
+  </div>
+</section>
+</main>
+
+<!-- ======= FOOTER ======= -->
+<footer id="contacto">
+  <svg class="footer-wave" viewBox="0 0 1440 64" preserveAspectRatio="none"><path fill="#ffffff" d="M0 0h1440v14c-200 34-420 44-620 30S420 4 240 14 90 40 0 28z"/></svg>
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-brand">
+        <img src="https://image.qwenlm.ai/public_source/086e1bd0-6642-4334-bc01-9d0186b9ab82/1103f1d6a-f228-464f-94c9-ce5adfd87300.png" alt="Logo Hospital Regional de Pucallpa" />
+        <img class="cmp" src="https://image.qwenlm.ai/public_source/086e1bd0-6642-4334-bc01-9d0186b9ab82/190394104-47b9-4d89-a4c0-382fe78997dc.png" alt="Logo Colegio Médico del Perú" />
+      </div>
+      <p>Curso de Actualización en Medicina Interna, organizado por el Departamento de Medicina del Hospital Regional de Pucallpa con el apoyo del Colegio Médico del Perú – Consejo Regional XIII Ucayali.</p>
+    </div>
+    <div>
+      <h4>Enlaces</h4>
+      <div class="footer-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#curso">El Curso</a>
+        <a href="#programa">Programa científico</a>
+        <a href="#inscripcion">Inscripción</a>
+      </div>
+    </div>
+    <div>
+      <h4>Contacto</h4>
+      <ul class="footer-contact">
+        <li><svg class="icon" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Colegio Médico del Perú – CRXIII Ucayali, Pucallpa, Perú</li>
+        <li><svg class="icon" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg> departamento.medicina@hrp.gob.pe</li>
+        <li><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 9h18M8 3v4M16 3v4"/></svg> 24, 25 y 26 de setiembre del 2026</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:.6rem">
+      <span>© 2026 <strong>Hospital Regional de Pucallpa</strong> · Departamento de Medicina</span>
+      <span><strong>Colegio Médico del Perú</strong> · CRXIII Ucayali</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---- Menú móvil ---- */
+  var menuToggle = document.getElementById('menu-toggle');
+  menuToggle.addEventListener('click', function(){
+    document.body.classList.toggle('nav-open');
+    menuToggle.setAttribute('aria-expanded', document.body.classList.contains('nav-open'));
+  });
+  document.querySelectorAll('.nav-links a').forEach(function(enlace){
+    enlace.addEventListener('click', function(){ document.body.classList.remove('nav-open'); });
+  });
+
+  /* ---- Sombra navbar ---- */
+  var barraNav = document.getElementById('navbar');
+  window.addEventListener('scroll', function(){
+    barraNav.classList.toggle('scrolled', window.scrollY > 10);
+  }, {passive:true});
+
+  /* ---- Cuenta regresiva ---- */
+  var fechaObjetivo = new Date('2026-09-24T08:00:00-05:00').getTime();
+  var cajaDias = document.getElementById('cd-days');
+  var cajaHoras = document.getElementById('cd-hours');
+  var cajaMins = document.getElementById('cd-mins');
+  var cajaSegs = document.getElementById('cd-secs');
+  function dosDigitos(n){ return String(n).padStart(2,'0'); }
+  function actualizarConteo(){
+    var diferencia = fechaObjetivo - Date.now();
+    if (diferencia <= 0){
+      document.getElementById('countdown-wrap').innerHTML = '<p class="cd-live">¡El curso está en marcha!</p>';
+      clearInterval(temporizadorConteo);
+      return;
+    }
+    var diasRest = Math.floor(diferencia / 86400000);
+    var horasRest = Math.floor(diferencia % 86400000 / 3600000);
+    var minRest = Math.floor(diferencia % 3600000 / 60000);
+    var segRest = Math.floor(diferencia % 60000 / 1000);
+    cajaDias.textContent = dosDigitos(diasRest);
+    cajaHoras.textContent = dosDigitos(horasRest);
+    cajaMins.textContent = dosDigitos(minRest);
+    cajaSegs.textContent = dosDigitos(segRest);
+  }
+  var temporizadorConteo = setInterval(actualizarConteo, 1000);
+  actualizarConteo();
+
+  /* ---- Pestañas del programa ---- */
+  var botonesPestania = document.querySelectorAll('.tab-btn');
+  botonesPestania.forEach(function(boton){
+    boton.addEventListener('click', function(){
+      botonesPestania.forEach(function(b){ b.classList.remove('active'); });
+      boton.classList.add('active');
+      document.querySelectorAll('.day-panel').forEach(function(panel){ panel.classList.remove('active'); });
+      document.getElementById(boton.dataset.target).classList.add('active');
+    });
+  });
+
+  /* ---- Animación al hacer scroll ---- */
+  var observador = new IntersectionObserver(function(entradas){
+    entradas.forEach(function(entrada){
+      if (entrada.isIntersecting){
+        entrada.target.classList.add('visible');
+        observador.unobserve(entrada.target);
+      }
+    });
+  }, {threshold:0.12});
+  document.querySelectorAll('.reveal').forEach(function(el){ observador.observe(el); });
+
+  /* ---- Formulario ---- */
+  var formulario = document.getElementById('reg-form');
+  var mensajeExito = document.getElementById('form-success');
+  formulario.addEventListener('submit', function(ev){
+    ev.preventDefault();
+    if (!formulario.checkValidity()){
+      formulario.reportValidity();
+      return;
+    }
+    mensajeExito.classList.add('show');
+    formulario.reset();
+    setTimeout(function(){ mensajeExito.classList.remove('show'); }, 8000);
+  });
+})();
+</script>
+</body>
+</html>
